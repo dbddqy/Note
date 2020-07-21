@@ -44,3 +44,26 @@ $$
 
 ![](pics/HMM.png)
 
+## Belief Distributions
+
+**Belief**: with all the measurements and control data, the distribution of state *x*, where the robot believes it is.
+
+Before measurement:
+$$
+\overline{bel}(x_t) = p(x_t | z_{1:t-1}, u_{1:t}) \tag{2.34}
+$$
+After measurement:
+$$
+bel(x_t) = p(x_t | z_{1:t}, u_{1:t}) \tag{2.33}
+$$
+
+## Bayes Filters
+
+**Prediction**:
+$$
+\overline{bel}(x_i) = \int{p(x_t | u_t, x_{t-1})bel(x_{t-1})}dx_{t-1}
+$$
+**Correction** (measurement update): 
+$$
+bel(x_i) = \eta{p(z_t | x_t)\overline{bel}(x_t)}
+$$
