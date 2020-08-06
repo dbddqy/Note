@@ -144,7 +144,16 @@ $$
 
 ## Moments
 
-$\boldsymbol{\mu}=E(\boldsymbol{X})$
-$$
-\mu
-$$
+$\boldsymbol{\mu}=E(\boldsymbol{X})$ : mean vector of ***X***
+
+$r_{ij}=E(X_iX_j)$ : correlation between $X_i$ and $X_j$
+
+$r_{ii}=E(X_i^2)$ : 2. moment of $X_i$
+
+$\boldsymbol{R}=E(\boldsymbol{X}\boldsymbol{X}^T)$ : correlation matrix of ***X***
+
+$c_{ij}=E((X_i-\mu_i)(X_j-\mu_j))$ : covariance between $X_i$ and $X_j$
+
+$c_{ii}=E((X_i-\mu_i)^2)=\sigma_i^2$ : variance of $X_i$ 
+
+$\boldsymbol{C}=E((\boldsymbol{X-\mu})(\boldsymbol{X-\mu})^T)$ : covariance matrix of ***X***

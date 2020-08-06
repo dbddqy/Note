@@ -118,6 +118,10 @@ $$
 
 ## Back Propagation
 
+![](pics/BP_0.jpg)
+
+![](pics/BP_1.jpg)
+
 ## Epoch and Mini-batch
 
 ![](pics/minibatch.png)
