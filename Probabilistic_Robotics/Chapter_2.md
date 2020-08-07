@@ -68,6 +68,6 @@ $$
 bel(x_i) = \eta{p(z_t | x_t)\overline{bel}(x_t)}
 $$
 
-### Some derivation of Bayes Filter
+### Bayes Filter Derivation
 
 ![](pics/bayes_filter_0.jpg)
