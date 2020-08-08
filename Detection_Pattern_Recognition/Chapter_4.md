@@ -84,6 +84,8 @@ Note:
 
 ![](pics/soft_SVM.png)
 
+![](pics/soft_SVM_2.png)
+
 Note:
 
 - can solve significantly larger set of problems
